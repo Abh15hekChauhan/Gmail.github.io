@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@320&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="d/signupcss.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Itim&family=Montserrat&display=swap" rel="stylesheet" />
+
+    <title>Create your Google account</title>
+    <link rel="icon" href="d/Google__G__Logo.svg.png" />
+
+
+
+</head>
+
+<body onload="fname.focus()">
+
+    <div class="parent">
+        <div class="img"><img src="https://ssl.gstatic.com/accounts/signup/glif/account.svg" class="img1" alt="">
+            <figcaption class="fig">One account. All of Google working for you.</figcaption>
+        </div>
+        <div class="child1">
+
+            <div class="google" style="margin-top: 10px;">
+                <span style="color: rgb(66, 133, 244);font-weight: 600;">G</span><span style="color: rgb(234, 67, 53);font-weight: 600;font-size: 20px;position: relative;left: 0px;">o</span><span style="color: rgb(251, 188, 5);font-weight: 600;font-size: 20px;position: relative;left: 0px;">o</span>
+                <span style="color: rgb(66, 133, 244);font-weight: 600;font-size: 20px;position: relative;left: -6.5px;">g</span>
+                <span style="color: rgb(52, 168, 83);font-weight: 600;font-size: 22px;position: relative;left: -14px;">l</span>
+                <span style="color: rgb(234, 67, 53);font-size: 22px;font-weight: 600;position: relative;left: -21.5px;">e</span>
+
+            </div>
+            <div>
+                <p class="cr">
+                    Create your Google Account
+                </p>
+            </div>
+
+            <div>
+                <form action="d/fine.html" name="gform" id="gfm" onsubmit="return validation()">
+
+                    <div class="flname">
+                        <div class="fname">
+                            <input type="text" name="fsname" class="box" value="" id="fname" placeholder=" ">
+                            <span class="sp1" id="sp1">First name</span>
+                            <!-- <i class="fas fa-check-circle"></i> -->
+
+                        </div>
+                        <!-- <div class="lname"> -->
+                        <input type="text" class="lsname" name="lsname" id="lname" value="" aria-label="Last Name" placeholder=" ">
+                        <span class="sp2" id="sp2">Last name</span>
+                        <i id="err2" class="fas fa-exclamation-circle" style="display: none;"></i>
+                        <small id="sm2" style="display: none;">Error Message</small>
+                        <!-- </div> -->
+
+                        <i id="err1" class="fas fa-exclamation-circle"></i>
+                        <small id="sm1" class="wrd">error</small>
+                    </div>
+                    <div class="emaill"><input type="text" id="eml" name="email" class="email" placeholder=" ">
+                        <span class="sp3" id="sp3">Username</span>
+                        <span class="gm">@gmail.com</span>
+                        <i id="err3" class="fas fa-exclamation-circle"></i>
+
+
+                        <!-- <small id="small">Error Message</small> -->
+
+                        <small id="sm3" class="wrd1">You can use letters, numbers & periods
+                        </small>
+                    </div>
+                    <div><a href="" class="current">Use my current email address instead</a></div>
+                    <div class="pwd1"><input type="password" name="pwd1" id="pwd1" class="pwd11" placeholder=" ">
+                        <span class="sp4" id="sp4">Password</span>
+                        <i id="err4" class="fas fa-exclamation-circle"></i>
+                        <div class="wrd2"><small id="sm4" style="position: relative;top: 5px;left: 3px;">Use 8 or more characters with a mix of letters, numbers & symbols </small></div>
+                    </div>
+                    <div class="pwd2"><input type="password" name="pwd2" id="pwd2" class="pwd22" placeholder=" ">
+                        <span class="sp5" id="sp5">Confirm</span>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" class="chk" name="chk" value="1" id="chkk" onclick="show()">
+                        <label for="chkk">Show password</label>
+                    </div>
+                    <div class="instead-next">
+                        <div><a href="login.html" class="instead">Sign in instead</span></a>
+
+                            <div><button id="sub" class="next"><span style="color: white;font-size: 14px;font-weight: 600;">Next</span></button>
+                                <!-- <span class="next1">Next</span> -->
+                            </div>
+                            <!-- <div><button type="submit" id="sub" style="visibility: hidden;">Next</button></div> -->
+                        </div>
+
+                </form>
+
+                </div>
+            </div>
+
+        </div>
+        <div>
+            <select name="" id="" class="opt">
+            <option value="English">English (United States)</option>
+        </select>
+        </div>
+
+        <div class="hpt">
+            <a href="https://support.google.com/accounts?hl=en#topic=3382296" target="_blank" style="position: relative; left: 520px; " class="help">Help</a>
+            <a href="https://policies.google.com/privacy?gl=IN&hl=en" target="_blank" style="position: relative;left: 540px;" class="privacy">Privacy</a>
+            <a href="https://policies.google.com/terms?gl=IN&hl=en" target="_blank" style="position: relative;left: 560px;" class="terms">Terms</a>
+        </div>
+
+
+
+
+</body>
+
+<!-- ERRORS -->
+<!-- when last char of email is "." or "_" it accepts -->
+
+<!-- improvements
+function    //done
+comments clean  //done
+extra variables //done
+query selector  //done
+js diff page    //done
+small   //done
+-->
+<script src="d/validationss.js"></script>
+
+</html>
