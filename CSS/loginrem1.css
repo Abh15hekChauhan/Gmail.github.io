@@ -12,7 +12,7 @@ html {
 @media(max-width:768px) {
     html {
         font-size: 45%;
-        width: 211rem;
+        width: 150rem;
         margin: 0rem 0rem 0rem 0rem;
         /* padding: 0 20rem 0 20rem; */
     }
