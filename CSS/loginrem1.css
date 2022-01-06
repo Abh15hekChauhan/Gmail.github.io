@@ -16,11 +16,12 @@ html {
         margin: 0rem 0rem 0rem 0rem;
         /* padding: 0 20rem 0 20rem; */
     }
-    /* .main {
+    .main {
+        min-zoom: 20%;
         margin: auto;
         padding: auto;
     }
-    .child {
+    /*   .child {
         margin: auto;
         padding: auto;
     }
