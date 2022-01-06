@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@320&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="logincss.css">
+    <link rel="stylesheet" href="CSS/logincss.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,7 +21,7 @@
 
 
     <title>Sign in - Google Accounts</title>
-    <link rel="icon" href="Google__G__Logo.svg.png" />
+    <link rel="icon" href="Logo/Google__G__Logo.svg.png" />
 </head>
 
 <body onload="t1.focus()">
@@ -52,7 +52,7 @@
                 <div class="not">Not your computer? Use Guest mode to sign in privately.
                     <a href="https://support.google.com/chrome/answer/6130773?hl=en" style="outline: 0;padding: 2px 2px;">Learn more</a>
                 </div>
-                <div class="crbtn"><a href="..\index.html" class="create">Create account</a>
+                <div class="crbtn"><a href="index.html" class="create">Create account</a>
                     <span class="spbt"><button class="btn" ><span class="nxt">Next</span></button>
                     </span>
                 </div>
@@ -75,63 +75,8 @@
 
         </ul>
     </footer>
-    <script>
-        elem = document.querySelectorAll("input, small, i, .sp ");
-        console.log(elem);
-        // sml = doccument.querySelectorAll("small");
-        // err = doccument.querySelectorAll("i");
-        // sp = doccument.querySelectorAll("sp");
-        // sml = document.getElementById("sm");
-        // err = document.getElementById("err1");
-        // sp = document.getElementById("sp");
-        var a = 0;
 
-        function validation() {
-            if (elem[0].value == "") {
-                // alert(sml);
-                elem[3].innerText = "Enter an email or phone number";
-                elem[2].style.display = "inline-block";
-                elem[3].style.display = "inline-block";
-                elem[0].style.outlineColor = "#d93025";
-                elem[0].style.borderColor = "white";
-                elem[0].style.borderColor = "#d93025";
-                elem[0].style.borderWidth = "1px";
-                elem[1].style.color = "#d93025";
-
-                a = 0;
-                return false;
-            } else if (elem[0].value.match(/^([a-z0-9_\-\.])+\@gmail+\.com$/) || elem[0].value.match(/^([0-9]{10})$/)) {
-                a = 1;
-                // sml.innerHtml = "Enter a valid email anmd phone number";
-                // err.style.display = "inline-block";
-                // sml.style.display = "inline-block";
-                // elem[0].style.outlineColor = "#d93025";
-                // elem[0].style.borderColor = "#d93025";
-                // elem[0].style.borderWidth = "1px";
-
-                // return false;
-                // } else {
-                elem[2].style.display = "none";
-                elem[3].style.display = "none";
-                elem[0].style.outlineColor = "#1a73e8";
-                elem[0].style.borderColor = "#20212427";
-                elem[0].style.borderWidth = "1px";
-                elem[1].style.color = "#1a73e8";
-                // alert("done");
-                return true;
-            } else {
-                elem[3].innerText = "Enter a valid email and phone number";
-                elem[2].style.display = "inline-block";
-                elem[3].style.display = "inline-block";
-                elem[0].style.outlineColor = "#d93025";
-                elem[0].style.borderColor = "#d93025";
-                elem[0].style.borderWidth = "1px";
-                elem[1].style.color = "#d93025";
-                return false;
-            }
-
-        }
-    </script>
 </body>
+<script src="JS/login.js"></script>
 
 </html>
