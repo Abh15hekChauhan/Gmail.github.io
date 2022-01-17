@@ -19,26 +19,24 @@ html {
     }
     .main {
         border: none;
-<<<<<<< HEAD
-width: 80rem;
-=======
+        margin: 10%;
+        padding: 4%;
         width: 80rem;
->>>>>>> 47a52e6b452cb24c0f1679cd0fd847d011e230b9
     }
-    #sl {
+    .opt {
         position: relative;
         float: left;
         right: 40rem;
         /* padding-right: 100rem; */
     }
-    #ul {
+    .hpt {
         position: relative;
         top: -3rem;
         float: right;
         left: 48rem;
         /* left: 7rem; */
     }
-    #ftr {
+    .ftr {
         /* display: none; */
         position: relative;
         top: 100vh;
@@ -49,12 +47,9 @@ width: 80rem;
         margin: 10%;
         padding: 4%;
         border: none;
-<<<<<<< HEAD
-width: 80rem;
-=======
-        width: 80rem;
-   
->>>>>>> 47a52e6b452cb24c0f1679cd0fd847d011e230b9
+        <<<<<<< HEAD width: 80rem;
+        =======width: 80rem;
+        >>>>>>>47a52e6b452cb24c0f1679cd0fd847d011e230b9
     }
     #t1 {
         width: 129rem;
