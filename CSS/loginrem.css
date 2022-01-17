@@ -19,7 +19,11 @@ html {
     }
     .main {
         border: none;
+<<<<<<< HEAD
 width: 80rem;
+=======
+        width: 80rem;
+>>>>>>> 47a52e6b452cb24c0f1679cd0fd847d011e230b9
     }
     #sl {
         position: relative;
@@ -42,10 +46,15 @@ width: 80rem;
         /* align-items: left; */
     }
     #dv {
-        margin: 4%;
+        margin: 10%;
         padding: 4%;
         border: none;
+<<<<<<< HEAD
 width: 80rem;
+=======
+        width: 80rem;
+   
+>>>>>>> 47a52e6b452cb24c0f1679cd0fd847d011e230b9
     }
     #t1 {
         width: 129rem;
