@@ -19,6 +19,7 @@ html {
     }
     .main {
         border: none;
+        width: 80rem;
     }
     #sl {
         position: relative;
@@ -44,6 +45,8 @@ html {
         margin: 10%;
         padding: 4%;
         border: none;
+        width: 80rem;
+   
     }
     #t1 {
         width: 129rem;
