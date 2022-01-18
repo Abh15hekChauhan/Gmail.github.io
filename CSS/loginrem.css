@@ -3,19 +3,19 @@ html {
     font-size: 62.5%;
 }
 
-@media(min-width:998px) {
+@media(max-width:998px) {
     html {
-        font-size: 60%;
+        font-size: 55%;
         border: none;
         /* width: 153rem; */
         /* margin-left: 10rem; */
     }
 }
 
-@media (min-width:300px) and (max-width:480px) {
+@media (max-width:480px) {
     html {
-        font-size: 45%;
-        width: 160rem;
+        font-size: 100%;
+        width: 10rem;
     }
     /* .main {
         border: none;
@@ -23,34 +23,39 @@ html {
         padding: 4%;
         width: 80rem;
     } */
-    .opt {
+    #sl {
         position: relative;
         float: left;
         right: 40rem;
         /* padding-right: 100rem; */
     }
-    .hpt {
+    #ul {
         position: relative;
         top: -3rem;
         float: right;
         left: 48rem;
         /* left: 7rem; */
     }
-    .ftr {
+    #ftr {
         /* display: none; */
         position: relative;
         top: 100vh;
+        left: 40rem;
+        /* float: left; */
         /* width: 40%; */
         /* align-items: left; */
     }
     #dv {
-        margin: 4%;
-        padding: 4%;
+        margin: 2%;
+        padding: 0%;
         border: none;
         width: 80rem;
     }
     #t1 {
         width: 129rem;
+    }
+    #btn {
+        float: right;
     }
     /*    .child {
         margin: auto;
