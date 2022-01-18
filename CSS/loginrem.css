@@ -14,8 +14,12 @@ html {
 
 @media (max-width:480px) {
     html {
-        font-size: 19%;
-        width: 10rem;
+        font-size: 56%;
+        margin-right: 0rem;
+        /* width: 10rem; */
+    }
+    body {
+        margin: 0rem;
     }
     /* .main {
         border: none;
@@ -26,33 +30,34 @@ html {
     #sl {
         position: relative;
         float: left;
-        right: 40rem;
+        /* right: 40rem; */
         /* padding-right: 100rem; */
     }
     #ul {
         position: relative;
         top: 0.7rem;
-        float: right;
-        left: 45rem;
-        /* left: 7rem; */
+        /* float: right; */
+        /* left: 45rem; */
+        left: -7rem;
     }
     #ftr {
         /* display: none; */
         position: relative;
-        top: 100vh;
-        left: 40rem;
+        top: 20vh;
+        left: -1rem;
         /* float: left; */
         /* width: 40%; */
         /* align-items: left; */
     }
     #dv {
         margin: 2%;
+        margin-right: 0rem;
         padding: 0%;
         border: none;
-        width: 131rem;
+        width: 38rem;
     }
     #t1 {
-        width: 128rem;
+        width: 35rem;
     }
     #btn {
         float: right;
