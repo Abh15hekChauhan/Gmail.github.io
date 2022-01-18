@@ -14,7 +14,7 @@ html {
 
 @media (max-width:480px) {
     html {
-        font-size: 70%;
+        font-size: 65%;
         margin-right: 0rem;
         /* width: 10rem; */
     }
