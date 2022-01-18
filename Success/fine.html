@@ -10,9 +10,25 @@
 </head>
 
 <body>
+    <span id="span">hello</span>
+    <h1 style="text-align: center;position: relative;top: 5rem; font-family: 'Courier New', Courier, monospace;">Welcome</h1>
     <!-- <?php -->
-    <h1 style="padding: 20% 40%;">Form is working fine.</h1>;
+
+    <h1 style="padding: 20% 40%;font-family:Verdana, Geneva, Tahoma, sans-serif">
+
+        <br> Login Successful
+    </h1>
     <!-- ?>  -->
+    <script>
+        // alert(localStorage.getItem("t1"));
+        var span = document.getElementById("span");
+        span.innerHTML = localStorage.getItem("t1");
+        span.style.position = "relative";
+        span.style.top = "12rem";
+        span.style.fontSize = "3rem";
+        span.style.padding = "0rem 38rem";
+        span.style.color = "red";
+    </script>
 </body>
 
 </html>

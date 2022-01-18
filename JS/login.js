@@ -74,6 +74,7 @@
 
         elem = document.querySelectorAll("input, small, i, .sp ");
         console.log(elem);
+
         // sml = doccument.querySelectorAll("small");
         // err = doccument.querySelectorAll("i");
         // sp = doccument.querySelectorAll("sp");
@@ -82,6 +83,13 @@
         // sp = document.getElementById("sp");
         var a = 0;
         var er = 0;
+
+        function lstorage() {
+            // var t1 = document.getElementById("t1").value;
+            // alert(elem[0].value);
+            localStorage.setItem("t1", elem[0].value);
+            return false;
+        }
 
         function validation() {
             if (elem[0].value == "") {
