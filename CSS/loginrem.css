@@ -14,7 +14,7 @@ html {
 
 @media (max-width:480px) {
     html {
-        font-size: 100%;
+        font-size: 60%;
         width: 10rem;
     }
     /* .main {
@@ -31,9 +31,9 @@ html {
     }
     #ul {
         position: relative;
-        top: -3rem;
+        top: 0.7rem;
         float: right;
-        left: 48rem;
+        left: 45rem;
         /* left: 7rem; */
     }
     #ftr {
@@ -49,10 +49,10 @@ html {
         margin: 2%;
         padding: 0%;
         border: none;
-        width: 80rem;
+        width: 131rem;
     }
     #t1 {
-        width: 129rem;
+        width: 128rem;
     }
     #btn {
         float: right;
