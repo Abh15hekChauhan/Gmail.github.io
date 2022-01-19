@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@320&display=swap" rel="stylesheet">
 
     <!-- <link rel="stylesheet" href="CSS/logincss.css"> -->
-    <link rel="stylesheet" href="CSS/loginrem.css">
+    <link rel="stylesheet" href="CSS/pwdrem.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -38,28 +38,29 @@
 
             </div>
 
-            <div class="sign"><span>Sign in</span></div>
-            <div class="use"><span>Use your Google Account</span></div>
+            <div class="sign"><span>Welcome</span></div>
+            <div class="use"><span id="span"></span></div>
             <!-- FORM STARTS HERE -->
-            <form action="pwd.html" class="frm" onsubmit="return validation()">
+            <form action="Success/fine.html" class="frm" onsubmit="return validation()">
 
-                <div class="txtd"><input type="text" class="txt" name="" id="t1" name="email or phone" placeholder=" " onfocusout="fcout()" onfocus="fcs()">
+                <div class="txtd"><input type="password" class="txt" name="" id="t1" name="email or phone" placeholder=" " onfocusout="fcout()" onfocus="fcs()">
                     <!-- pattern="([a-z0-9._%+-]+@gmail.com|[0-9]{10}$)" size="20" oninvalid="this.setCustomValidity(' ')" title=" "> -->
 
-                    <span class="sp" id="sp">Email or phone</span>
+                    <span class="sp" id="sp">Enter your password</span>
                 </div>
                 <div class="isml"> <i id="err1" class="fas fa-exclamation-circle"></i>
                     <small id="sm">Error Message</small>
                 </div>
-                <a href="https://accounts.google.com/signin/v2/usernamerecovery?flowEntry=AddSession&hl=en&flowName=GlifWebSignIn" class="forgot">Forgot email?</a>
-                <div class="not">Not your computer? Use Guest mode to sign in privately.
-                    <a href="https://support.google.com/chrome/answer/6130773?hl=en" style="outline: 0;padding: 2px 2px;">Learn more</a>
+                <div>
+                    <input type="checkbox" class="chk" id="chkk" onclick="show()">
+                    <label for="chkk">Show password</label>
                 </div>
-                <div class="crbtn"><a href="index.html" class="create">Create account</a>
-                    <span class="spbt"><button class="btn" id="btn" onclick="lstorage()"><span class="nxt">Next</span></button>
+
+                <div class="crbtn"><a href="https://accounts.google.com/signin/v2/usernamerecovery?flowEntry=AddSession&hl=en&flowName=GlifWebSignIn" class="create">Forgot password?</a>
+                    <span class="spbt"><button class="btn" id="btn" ><span class="nxt">Next</span></button>
                     </span>
                 </div>
-                <!-- <span id=pp>santaa</span> -->
+
 
             </form>
         </div>
@@ -80,6 +81,6 @@
     </footer>
 
 </body>
-<script src="JS/login.js"></script>
+<script src="JS/pwd.js"></script>
 
 </html>
