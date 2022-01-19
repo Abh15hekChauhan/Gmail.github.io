@@ -156,3 +156,7 @@
                 elem[1].style.color = "#d93025";
             }
         }
+
+        function dont() {
+            alert("You already have Baby, no need to create new one");
+        }
