@@ -33,7 +33,8 @@ html {
     #sl {
         position: relative;
         float: left;
-        background-color: white;
+        top: 0rem;
+        /* background-color: pink; */
         /* right: 40rem; */
         /* padding-right: 100rem; */
     }
@@ -62,6 +63,7 @@ html {
     }
     #t1 {
         width: 95%;
+        outline-width: .8rem;
     }
     #btn {
         float: right;
@@ -250,6 +252,7 @@ label {
 
 .txt:focus {
     outline-color: #1a73e8;
+    outline-width: 3px;
 }
 
 .txt {
@@ -305,7 +308,7 @@ label {
 
 .txt:not(:placeholder-shown).txt:not(:focus)~.sp {
     color: #5f6368;
-    top: -6.8rem;
+    top: -6.4rem;
     left: 1.0rem;
     padding: .5rem;
     font-size: 1.3rem;
@@ -510,6 +513,9 @@ a:focus {
     outline: none;
     padding: 1.0rem 1.0rem;
     border-radius: .4rem;
+    background-color: white;
+    position: relative;
+    top: -1rem;
 }
 
 .hpt {
@@ -527,7 +533,7 @@ a:focus {
     position: relative;
     float: right;
     top: 0rem;
-    /* left: 10rem; */
+    left: 1rem;
     outline: none;
 }
 

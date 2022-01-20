@@ -5,7 +5,7 @@ html {
 
 @media(max-width:998px) {
     html {
-        /* font-size: 55%;   */
+        font-size: 55%;
         border: none;
         /* width: 153rem; */
         /* margin-left: 10rem; */
@@ -33,6 +33,7 @@ html {
     #sl {
         position: relative;
         float: left;
+        top: 0rem;
         background-color: white;
         /* right: 40rem; */
         /* padding-right: 100rem; */
@@ -62,6 +63,7 @@ html {
     }
     #t1 {
         width: 95%;
+        border-width: 0.1rem;
     }
     #btn {
         float: right;
@@ -281,7 +283,7 @@ input {
 
 .txt:not(:placeholder-shown).txt:not(:focus)~.sp {
     color: #5f6368;
-    top: -6.8rem;
+    top: -6.4rem;
     left: 1.0rem;
     padding: .5rem;
     font-size: 1.3rem;
@@ -485,6 +487,9 @@ a:focus {
     outline: none;
     padding: 1.0rem 1.0rem;
     border-radius: .4rem;
+    position: relative;
+    top: -1rem;
+    background-color: white;
 }
 
 .hpt {

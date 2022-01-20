@@ -140,7 +140,7 @@
         }
 
         function fcout() {
-            if (elem[0].value == "") {
+            if (elem[0].value == "" || !elem[0].value == "") {
                 // alert("focus out");
                 elem[1].style.color = "#5f6368";
             }
@@ -159,4 +159,8 @@
 
         function dont() {
             alert("You already have Baby, no need to create new one");
+        }
+
+        function focuss(i) {
+            elem[0].focus();
         }
