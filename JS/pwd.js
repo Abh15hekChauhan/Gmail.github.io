@@ -133,6 +133,9 @@
                 // alert("focus out");
                 elem[1].style.color = "#5f6368";
             }
+            if ((!elem[0].value == "") && er == 1) {
+                elem[1].style.color = "#d93025";
+            }
 
         }
 
