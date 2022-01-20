@@ -144,11 +144,14 @@
                 // alert("focus out");
                 elem[1].style.color = "#5f6368";
             }
+            if ((!elem[0].value == "") && er == 1) {
+                elem[1].style.color = "#d93025";
+            }
 
         }
 
         function fcs() {
-            if (elem[0].value == "" && er == 0) {
+            if ((elem[0].value == "" && er == 0)) {
                 // alert("focus in");
                 elem[1].style.color = "#1a73e8";
             }
