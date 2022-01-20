@@ -67,6 +67,9 @@ html {
         width: 95%;
         border-width: 0.1rem;
     }
+    #t1:focus {
+        outline: 0.2rem solid #1a73e8;
+    }
     #btn {
         float: right;
     }
