@@ -3,9 +3,9 @@ html {
     font-size: 62.5%;
 }
 
-@media(max-width:998px) {
+@media(min-width:998px) {
     html {
-        font-size: 55%;
+        font-size: 62.5%;
         border: none;
         /* width: 153rem; */
         /* margin-left: 10rem; */
